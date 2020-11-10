@@ -49,10 +49,10 @@ function valorInput() {
             contador++;
         }
         else {
-            if (contador !== 2 && valor.toLowerCase() > cor.toLowerCase()) {
+            if (contador !== 3 && valor.toLowerCase() > cor.toLowerCase()) {
                 alert("Errado, a cor escolhida por você é maior que a minha alfabeticamente :(");
             }
-            else if(contador !== 2 && valor.toLowerCase() < cor.toLowerCase()) {
+            else if(contador !== 3 && valor.toLowerCase() < cor.toLowerCase()) {
                 alert("Errado, a cor escolhida por você é menor que a minha alfabeticamente :(");
             }
             else{
